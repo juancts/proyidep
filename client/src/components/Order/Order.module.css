@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.ord {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px;
+  color: aliceblue;
+}

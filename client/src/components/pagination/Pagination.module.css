@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    width: 50%;
+}
+
+.ent{
+    width: 50%;
+    padding-left: 15%;
+}
+.container button {
+    height: 30px;
+    background-color: rgb(110, 110, 110);
+    border-radius: 100px;
+    color: white;
+    width: 50%;
+    }

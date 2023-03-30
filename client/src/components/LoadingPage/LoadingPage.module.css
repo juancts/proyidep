@@ -1,0 +1,7 @@
+.centertxt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% of the viewport height */
+    text-align: center;
+  }

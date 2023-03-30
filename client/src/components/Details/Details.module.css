@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.title{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   color: red;
+}
+
+.types{
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    justify-content: center;
+        
+}
+
+.img{
+    background: rgba(0, 0, 0, 0.3);
+    width: 370px;
+    height: 350px;
+    border-radius: 35px;
+    
+    
+}
+
+.pic {
+    padding: 60px;
+    border-radius: 50px;
+
+}
+
+.statistics{
+    padding-left: 50px;
+}
+

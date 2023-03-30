@@ -1,0 +1,58 @@
+/* form {
+    margin: 0 auto;  Centramos el formulario 
+    width: 300px;    Sin ancho no podemos centrar el formulario 
+    padding: 2px;
+ } 
+ */
+
+ .container {
+    position : relative;
+    width  : 740px;
+    height : 498px;
+    margin : 0 auto;
+    padding: 1em;
+    box-sizing: border-box;
+    
+  
+    /* creamos nuestra malla (grid) */
+    display  : grid;
+    grid-gap : 20px;
+    grid-template-columns : repeat(2, 1fr);
+    grid-template-rows    : 10em 1em 1em 1em;
+  }
+
+ input, textarea {
+    padding: 5px; /* Separamos la letra del interior (contenido) en los inputs de los bordes */
+}
+
+label {
+    display: block; /* Ahora los inputs quedan debajo de los label */
+    padding: 5px; /* Separando espacios internos */
+}
+
+li {
+    list-style:none;
+    margin: 10px; /* dando márgenes a todos los elementos de la lista */
+}
+
+.btn{
+    margin-top: 20px; /* Damos un margen individual para el contenedor del botón */
+}
+
+.button {
+    width: 20%;
+    margin-left: 15%;
+    background-color: rgb(96, 160, 219);
+    border-radius: 10px;
+}
+
+.warning {
+    border: solid red 1px;
+    border-radius: 0.2em;
+  }
+  
+  .danger {
+    font-size: 10px;
+    color: red;
+    margin-left: 10em;
+  }

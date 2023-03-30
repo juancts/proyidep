@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  color: white;
+}
+
+.a {
+  color: #fff;
+}
+.a:hover {
+  color: white;
+}

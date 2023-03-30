@@ -1,0 +1,39 @@
+/* .container{
+    display: flex;
+    background-image: url("https://www.hyperhype.es/wp-content/uploads/2021/01/Pokemon-Diamante.jpg");
+} */
+
+
+.container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    column-gap: 5px;
+    padding-top: 50px;
+}
+
+.title{
+    color: aliceblue;
+}
+
+.a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .a:hover {
+    color: white;
+    cursor:pointer;
+  }
+
+.child{
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 5px; */
